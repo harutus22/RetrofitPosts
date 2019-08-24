@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/getAllComments"
+        android:title="All Comments"
+        android:icon="@android:drawable/sym_action_email"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/addPost"
+        android:title="Add Post"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/findPostByUser"
+        android:title="Find Post By User Id"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/allPosts"
+        android:title="Show all Posts"
+        android:icon="@android:drawable/ic_dialog_map"
+        app:showAsAction="ifRoom"/>
+</menu>
